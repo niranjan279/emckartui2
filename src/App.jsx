@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route
             path='/'
-            element={authCheck(<Product />)}
+            element={Product />}
           />
           <Route path='/signup' element={<Signup />} />
           <Route path='/login' element={<Login />} />
